@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+    }
+    header{
+        width: 600px;
+        background-color: gray;
+        padding: 10px;
+        margin: 10px;
+    }
+    main {
+        background-color: rgb(185, 185, 185);
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px 0px;
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.808);
+    }
+    article{
+        background-color: rgb(185, 185, 185);
+    }
+    article > aside {
+        background-color: rgb(126, 126, 126);
+    }
+    nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 30px;
+    }
+    nav > a:hover{
+        text-decoration: underline;
+    }
+    footer{
+        background-color: black;
+        color: dimgray;
+        text-align: center;
+        padding: 1px;
+        margin: 0px;
+    }
+</style>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <article>
+            <h2>Noticia Sobre o brasil</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis velit sunt nostrum? Sunt, ipsum minima dolor ullam eius blanditiis sequi, facilis eligendi tenetur commodi odit rem debitis voluptates optio labore.</p>
+            <aside>
+                <p>Escrito por Miguel Matias</p>
+            </aside>
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido por Miguel</p>
+    </footer>
+</body>
+</html>

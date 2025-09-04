@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html 5</title>
+</head>
+<body>
+  <h1>Imagens dinamicas</h1>
+   <p>tente abrir esses sites em varios dipositivos diferentes ou simplesmente aumente e diminua o tamanho do navegador</p>
+    <picture>
+       <source media="(max-width: 730px)" srcset="imagens/pequeno.png" type="image/png">
+       <source media="(max-width: 1030px)" srcset="imagens/medio.png" type="image/png">
+      <img src="imagens/grande.png" alt="imagem flexivel">
+    </picture>
+ <h1>reproduzindo audio</h1>
+  <p>vamos aprender a reproduzir audio</p>
+    <audio preload="auto" controls loop>
+      <source src="midia/In The Morning - The Grey Room _ Clark Sims (1).mp3" type="audio/mpeg">
+      <p>infelizmente seu navegador nao reproduz audio</p>
+  <h1></h1>
+ </audio>
+</body>
+</html>
+
